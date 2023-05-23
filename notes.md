@@ -4,6 +4,9 @@ Sensor fusion algorithm
 
 In regular kalman filter, only previous state and current state are used. In the other variants like extended, multiple previous states are used
 
+"The objective of the Kalman Filter is to minimize the mean squared error between the actual and estimated data" - MIT
+
+It's a recursive least squares filter
 
 ### Statistical Assumptions
 
@@ -24,13 +27,8 @@ There's a standard formula for calculating both and it's simple. The Kalman filt
 only the last state is important. x(t-2) doesn't provide any more information than x(t-1).
 ---
 
-
-
-
 ## Resources
 
 https://www.kalmanfilter.net/default.aspx
 https://web.stanford.edu/class/ee363/lectures/kf.pdf
-
-
-Markov Process
+https://web.mit.edu/kirtley/kirtley/binlustuff/literature/control/Kalman%20filter.pdf
